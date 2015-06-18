@@ -1,0 +1,35 @@
+{
+  "name": "fragile",
+  "version": "0.0.3",
+  "main": "dist/agile.js",
+  "description": "Dirty fix for agile library. Do not use this library, use agile instead.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freemanfx/agile.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "package.json",
+    "lib",
+    "test",
+    "src",
+    "Gruntfile.js",
+    ".gitignore",
+    "README.md",
+    "travis.yml",
+    ".bowercc"
+  ],
+  "homepage": "https://github.com/freemanfx/agile",
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.3",
+    "commit": "9de1054cb22b5090fa268e3c748e59b028dfccbd"
+  },
+  "_source": "git://github.com/freemanfx/agile.git",
+  "_target": "0.0.3",
+  "_originalSource": "fragile"
+}
