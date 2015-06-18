@@ -1,28 +1,74 @@
 {
-  "name": "ginkgo-seed-spa",
-  "version": "0.1.0",
+  "name": "uwezo",
+  "version": "0.1",
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-bootstrap": "0.12.1",
+    "angular-cookies": "1.3.15",
+    "angular-resource": "1.3.15",
+    "angular-route": "1.3.15",
+    "angular-sanitize": "1.3.15",
+    "angular-translate": "~2.1.0",
+    "angular-xeditable": "~0.1.8",
+    "angular-bootstrap-colorpicker": "3.0.17",
+    "bootstrap": "~3.3.4",
+    "bootstrap-hover-dropdown": "2.1.3",
+    "es5-shim": "~2.1.0",
+    "jquery": "~2.1.4",
+    "json3": "~3.2.6",
+    "moment": "~2.7.0",
+    "ng-flow": "~2.4.0",
+    "underscore": "~1.6.0",
+    "angular-http-auth": "~1.2.2",
+    "ng-table": "~0.3.3",
+    "lodash": "~2.4.1",
+    "fragile": "0.0.3",
+    "lightbox": "~2.7.1",
+    "angular-dialog-service": "~5.2.1",
+    "angular-input-match": "~0.0.2",
+    "ng-tags-input": "2.1.1",
+    "sockjs": "~0.3.4",
+    "stomp-websocket": "~2.3.4",
+    "spin.js": "~2.0.1",
+    "angular-spinner": "~0.5.1",
+    "bootstrap-select": "~1.6.3",
+    "tc-angular-chartjs": "~1.0.9",
+    "angular-growl-v2": "~0.7.3",
+    "angular-animate": "~1.3.15",
+    "blockui": "2.70",
+    "flow.js": "2.9.0",
+    "angular-timer": "~1.3.1",
+    "bootstrap-bower": "~3.0.0",
+    "humanize-duration": "2.8.0",
+    "angular-recaptcha": "2.2.3"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.3.15",
+    "angular-scenario": "1.3.15"
+  },
+  "homepage": "https://github.com/cegeka/uwezo",
   "authors": [
-    "cegeka.be"
+    "Monica Turiac <monica.turiac@cegeka.com>",
+    "Valentin Ionita <valentin.ionita@cegeka.com>",
+    "Andrei Petcu <andrei.petcu@cegeka.com>"
   ],
-  "description": "The single page application component of the ginkgo seed, an angular and spring enabled seed",
-  "main": "app/index.html",
-  "license": "MIT",
+  "description": "Sales App",
+  "main": "uwezo-app",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "app/bower_components",
     "test",
     "tests"
   ],
-  "dependencies": {
-    "angular-cookies": "~1.2.0",
-    "angular-mocks": "~1.2.0",
-    "angular-route": "~1.2.0",
-    "angular-scenario": "~1.2.0",
-    "angular-ui-bootstrap-bower": "~0.6.0",
-    "angular-ui-utils": "~0.0.4",
-    "bootstrap": "~3.0.0",
-    "jquery": "~1.10.2",
-    "lodash": "~2.2.1"
+  "resolutions": {
+    "angular": "1.3.15",
+    "angular-bootstrap": "~0.11"
   }
 }
+
